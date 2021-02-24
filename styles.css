@@ -1,0 +1,25 @@
+/* Universal Selector*/
+*{
+  text-align: center;
+}
+/* Type Selector*/
+html {
+  background-color: orange;
+}
+/* Class Selector*/
+.this-is-classy{
+  font-size: 40px;
+}
+/* ID Selector*/
+#this-is-an-id{ 
+  font-family: Impact;
+  text-align: left;
+}
+/* Child Selector*/
+body>p {
+  color: red;
+}
+/* Descendant Selector*/
+body p {
+  color: blue;
+}
